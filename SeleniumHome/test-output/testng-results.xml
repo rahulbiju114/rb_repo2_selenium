@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-13T06:42:58 IST" name="Default suite" finished-at="2024-08-13T06:43:06 IST" duration-ms="7759">
+    <groups>
+    </groups>
+    <test started-at="2024-08-13T06:42:58 IST" name="Default test" finished-at="2024-08-13T06:43:06 IST" duration-ms="7759">
+      <class name="a3_testscript.Prg34_InputTestNg">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:a3_testscript.Prg34_InputTestNg@434a63ab]" started-at="2024-08-13T06:42:58 IST" name="beforeMethod" finished-at="2024-08-13T06:43:02 IST" duration-ms="4245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="f()[pri:0, instance:a3_testscript.Prg34_InputTestNg@434a63ab]" started-at="2024-08-13T06:43:02 IST" name="f" finished-at="2024-08-13T06:43:02 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:a3_testscript.Prg34_InputTestNg@434a63ab]" started-at="2024-08-13T06:43:02 IST" name="afterMethod" finished-at="2024-08-13T06:43:02 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:a3_testscript.Prg34_InputTestNg@434a63ab]" started-at="2024-08-13T06:43:02 IST" name="beforeMethod" finished-at="2024-08-13T06:43:05 IST" duration-ms="3146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="enter2ValuesSum()[pri:0, instance:a3_testscript.Prg34_InputTestNg@434a63ab]" started-at="2024-08-13T06:43:05 IST" name="enter2ValuesSum" finished-at="2024-08-13T06:43:06 IST" duration-ms="308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enter2ValuesSum -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:a3_testscript.Prg34_InputTestNg@434a63ab]" started-at="2024-08-13T06:43:06 IST" name="afterMethod" finished-at="2024-08-13T06:43:06 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- a3_testscript.Prg34_InputTestNg -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
