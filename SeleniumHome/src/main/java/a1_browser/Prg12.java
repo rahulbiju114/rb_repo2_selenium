@@ -1,3 +1,5 @@
+// Tables
+
 package a1_browser;
 
 import java.util.List;
@@ -11,7 +13,7 @@ public class Prg12 extends Prg1 {
 		
 		d1.navigate().to("https://selenium.qabible.in/table-pagination.php");
 		
-		WebElement e1 = d1.findElement(By.xpath("//table[@id='dtBasicExample']"));
+		WebElement e1 = d1.findElement(By.xpath("//table[@id='dtBasicExample']"));  //full table
 		
 		System.out.println(e1.getText());
 		System.out.println("==========================================");
@@ -22,7 +24,7 @@ public class Prg12 extends Prg1 {
 		
 		d1.navigate().to("https://selenium.qabible.in/table-pagination.php");
 		
-		WebElement e1 = d1.findElement(By.xpath("//table[@id='dtBasicExample']/tbody/tr[1]"));
+		WebElement e1 = d1.findElement(By.xpath("//table[@id='dtBasicExample']/tbody/tr[1]")); // particular full row
 		
 		System.out.println(e1.getText());
 		System.out.println("==========================================");
@@ -34,7 +36,7 @@ public class Prg12 extends Prg1 {
 		
 		d1.navigate().to("https://selenium.qabible.in/table-pagination.php");
 		
-		WebElement e1 = d1.findElement(By.xpath("//table[@id='dtBasicExample']/tbody/tr/td[1]"));
+		WebElement e1 = d1.findElement(By.xpath("//table[@id='dtBasicExample']/tbody/tr/td[1]"));  // particular rows 1st column item
 		
 		System.out.println(e1.getText());
 		System.out.println("==========================================");
@@ -46,7 +48,7 @@ public class Prg12 extends Prg1 {
 		
 		d1.navigate().to("https://selenium.qabible.in/table-pagination.php");
 		
-		List<WebElement> e1 = d1.findElements(By.xpath("//table[@id='dtBasicExample']/tbody/tr/td[1]"));
+		List<WebElement> e1 = d1.findElements(By.xpath("//table[@id='dtBasicExample']/tbody/tr/td[1]"));  // particlar row 1st full column
 		
 		for(WebElement i : e1) {
 			
@@ -106,14 +108,14 @@ public class Prg12 extends Prg1 {
 	Prg12 t1 = new Prg12();
 	t1.openBrowser();
 	
-	t1.fullTable();
-	//t1.openRow(); 
-	//t1.openColumn();
-	//t1.openListColumn();
+	//t1.fullTable();
+	t1.openRow(); 
+	t1.openColumn();
+	t1.openListColumn();
 	
-	//t1.openListColumn3();
+	t1.openListColumn3();
 	
-	t1.openListColumn2();
+	//t1.openListColumn2();
 
 	}
 

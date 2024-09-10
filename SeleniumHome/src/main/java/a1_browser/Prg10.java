@@ -1,3 +1,8 @@
+// Alertbox
+// .switchTo().alert().accept();
+// d1.switchTo().alert().dismiss();
+//d1.switchTo().alert().sendKeys("hi");
+
 package a1_browser;
 
 import org.openqa.selenium.By;

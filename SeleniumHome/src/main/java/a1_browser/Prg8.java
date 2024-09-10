@@ -1,3 +1,5 @@
+// using findElements and for each loop
+
 package a1_browser;
 
 import java.util.List;

@@ -98,6 +98,8 @@ public class Prg4 extends Prg1 {
 	
 	public void dynamicXpath() {
 		
+		//dynamic xpath
+		
 		// contains
 		// tag[ contains ( @type, 'partial value')]
 		
@@ -117,7 +119,7 @@ public class Prg4 extends Prg1 {
 		
 		WebElement f3 = d1.findElement(By.xpath("//button[@class='navbar-toggler']//child::span[@class='navbar-toggler-icon']"));
 		
-		// patent tag
+		// parent tag
 		
 	//   xpath // parent :: tagname
 		
